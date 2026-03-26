@@ -1,0 +1,23 @@
+{
+  "name": "memoriant-env-bootstrap-skill",
+  "version": "1.0.0",
+  "description": "Developer environment bootstrapping for Claude Code — scans a project folder for language and dependency hints, generates a bootstrap.sh setup script and ONBOARDING.md checklist so new contributors can start working on day one.",
+  "author": {
+    "name": "Nathan Maine",
+    "url": "https://github.com/NathanMaine"
+  },
+  "repository": "https://github.com/NathanMaine/memoriant-env-bootstrap-skill",
+  "license": "MIT",
+  "keywords": [
+    "devex",
+    "onboarding",
+    "bootstrap",
+    "environment-setup",
+    "developer-experience",
+    "memoriant",
+    "claude-code",
+    "skill"
+  ],
+  "skills": "./skills/",
+  "agents": "./agents/"
+}

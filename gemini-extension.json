@@ -1,0 +1,40 @@
+{
+  "name": "memoriant-env-bootstrap-skill",
+  "version": "1.0.0",
+  "description": "Developer environment bootstrapping — scans a project for stack signals and generates a bootstrap.sh setup script and ONBOARDING.md checklist for new contributors.",
+  "author": "Nathan Maine",
+  "repository": "https://github.com/NathanMaine/memoriant-env-bootstrap-skill",
+  "license": "MIT",
+  "gemini": {
+    "cli_version": ">=0.1.0"
+  },
+  "skills": [
+    {
+      "name": "env-bootstrap",
+      "description": "Scan a project directory for tech stack signals and generate a bootstrap.sh setup script and ONBOARDING.md checklist for new contributors.",
+      "file": "./skills/env-bootstrap/SKILL.md",
+      "triggers": [
+        "generate bootstrap script",
+        "write onboarding guide",
+        "set up development environment",
+        "new developer onboarding",
+        "bootstrap this project",
+        "generate setup script",
+        "create ONBOARDING.md"
+      ]
+    }
+  ],
+  "agents": [
+    {
+      "name": "env-bootstrap-agent",
+      "description": "Autonomous agent that detects tech stacks and generates developer onboarding scripts and documentation.",
+      "file": "./agents/env-bootstrap-agent.md",
+      "model": "gemini-2.0-flash"
+    }
+  ],
+  "install": {
+    "claude_code": "claude mcp add memoriant-env-bootstrap-skill",
+    "codex": "codex install NathanMaine/memoriant-env-bootstrap-skill",
+    "gemini": "gemini extension install NathanMaine/memoriant-env-bootstrap-skill"
+  }
+}
