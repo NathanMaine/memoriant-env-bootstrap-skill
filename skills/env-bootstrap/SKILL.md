@@ -1,8 +1,6 @@
 ---
 name: env-bootstrap
 description: Scan a project folder for language and dependency signals, then generate a bootstrap.sh setup script and an ONBOARDING.md checklist so new contributors can set up and start working on day one.
-version: 1.0.0
-tags: [devex, onboarding, bootstrap, environment-setup, developer-experience]
 ---
 
 # Environment Bootstrap Skill
